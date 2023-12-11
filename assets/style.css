@@ -1,0 +1,349 @@
+.header {
+    position: relative;
+    background-color: #478480;
+    color: #fff; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.greet {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 7%;
+    height: 120%;
+}
+
+.greet img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-box {
+    width: 55px;
+    height: 55px;
+    margin-left: 16px;
+    background-color: rgba(221, 237, 170, 1);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+}
+
+.title {
+    font-size: xx-large;
+    height: 1.5%;
+    padding: 1.5%;
+    text-align: center;
+    align-items: center;
+}
+
+.text {
+    display: inline;
+}
+
+.timetable {
+    height: 98%;
+    width: 98%;
+    border-radius: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c7efcf;
+}
+
+.title-time {
+    width: 100%; 
+    height: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% auto;
+    background-color: #478480;
+    border-radius: 28px;
+}
+
+.content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #b8e2df;
+}
+
+.info-container {
+    position: relative;
+    margin: 2vh auto;
+    width: 98%;
+    height: 80%;
+    background-color: rgba(221, 237, 170, 0);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box {
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    margin-right: auto;
+    background-color: rgba(221, 237, 170, 1);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    height: 98%;
+    width: 98%;
+    border-radius: 28px;
+}
+
+.photo-container {
+    position: absolute;
+    bottom: auto;
+    right: auto;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 237, 170, 1);
+    border-radius: 30px;
+}
+
+.place {
+    position: absolute;
+    top: 0;
+    margin-top: 0.5%;
+    width: 99%;
+    height: 40%;
+    border-top: 30px;
+}
+
+.place iframe {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.internal {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0.5%;
+    height: 58.5%;
+    width: 99%;
+}
+
+.internal img {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.contatti {
+    position: absolute;
+    bottom: auto;
+    right: 0;
+    width: 38%;
+    height: 100%;
+    background-color: rgba(221, 237, 170, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.contatti-section {
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    background-color: #c7efcf;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-contatti {
+    width: 100%; 
+    height: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% auto;
+    background-color: #478480;
+    border-radius: 28px;
+}
+
+.about {
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    width: 38%;
+    height: 100%;
+    background-color: rgba(221, 237, 170, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.about-section {
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    background-color: #c7efcf;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-about {
+    width: 100%; 
+    height: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% auto;
+    background-color: #478480;
+    border-radius: 28px;
+}
+
+.about-content {
+    width: 100%; 
+    height: 80%; 
+}
+
+.about-photo {
+    position: absolute;
+    left: 0;
+    margin-top: 2%;
+    height: 50%;
+    width: 50%;
+    border-radius: 28px;
+    background-color: rgba(221, 237, 170, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-photo img {
+    position: relative;
+    height: 98%;
+    width: 98%;
+    border-radius: 28px;
+}
+
+.about-description-1 {
+    position: absolute;
+    right: 0;
+    margin-top: 2%;
+    margin-right: 1%;
+    height: 50%;
+    width: 48%;
+    font-size: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-description-2 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 1%;
+    height: 28%;
+    width: 98%;
+    font-size: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blink {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: 19%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #13958d;
+    color: #fff; 
+    padding: 8px 0px;
+    width: 100%;
+    height: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pulse.animated{
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+.pulse {
+    color: rgba(221, 237, 170, 1);
+}
+
+.contatti-content {
+    width: 100%; 
+    height: 80%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.orari {
+    width: 100%; 
+    height: 80%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+}
+
+.orari table {
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+.contatti-content table {
+    border-collapse: separate;
+    border-spacing: 40px; /* Regola qui il valore dello spazio tra le righe */
+}
+.contatti-content th {
+    /*border: 1px solid black;*/
+    padding: 15px;
+}
+
+.contatti-content td {
+    /*border: 1px solid black;*/
+    padding: 15px;
+}
+
+.icon {
+    height: 2%;
+    max-width: 40px;
+}
+
+/* Stili per dispositivi mobili con larghezza massima di 600px */
+@media only screen and (max-width: 915px) {
+    .title {
+        font-size: large;
+        height: 1.5%;
+        padding: 1.5%;
+        text-align: center;
+        align-items: center;
+    }
+   
+}
